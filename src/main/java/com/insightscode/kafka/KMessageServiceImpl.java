@@ -1,4 +1,4 @@
-package com.insightscode.service;
+package com.insightscode.kafka;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -10,9 +10,9 @@ import org.springframework.stereotype.Service;
  * This represents the service of the Ka
  */
 @Service
-public class ProducerServiceImpl implements ProducerService {
+public class KMessageServiceImpl implements KMessageService {
 
-    private static final Logger LOGGER = LoggerFactory.getLogger(ProducerServiceImpl.class);
+    private static final Logger LOGGER = LoggerFactory.getLogger(KMessageServiceImpl.class);
         @Autowired
         private KafkaTemplate<String,String> kafkaTemplate;
         @Autowired

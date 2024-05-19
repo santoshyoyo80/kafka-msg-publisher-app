@@ -1,6 +1,6 @@
-package com.insightscode.service;
+package com.insightscode.kafka;
 
-public interface ProducerService {
+public interface KMessageService {
      /**
       * This service is used to transfer object to the topic to the zookeeper
       * @param payload

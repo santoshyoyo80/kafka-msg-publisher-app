@@ -1,11 +1,11 @@
+# kafka-msg-producer-app
+This application just to show how to send a event payload to kafka's topic.
 # Pre-requisite
-Make sure zookeeper and kafka broker is stated or not if not started then start it.
-# kafka-producer-app
-This application intended to the send message to the kafka server/broker to the specific topic,
-whatever we are sending to the kafka server called as payload
-
+Make sure kafka zookeeper and kafka brokers are running on your local machine as application uses the local broker url see <b>application.yml</b> file
+If you don't have kafka environment set up on your machine then do the following..<br>
+<b>cd project<br></b>
+<b>docker-compose up -d</b>
 # JAVA Version(1.8)
-
 # Event Request Payload
 ### URL: http://localhost:8761/events
 {
@@ -14,5 +14,3 @@ whatever we are sending to the kafka server called as payload
     "ipv6": "192.6.56.6.5",
     "agentString":"Google chrome mac Os"
 }
-
-

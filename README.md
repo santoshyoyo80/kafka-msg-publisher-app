@@ -1,3 +1,4 @@
+
 # kafka-msg-producer-app
 This application just to show how to send an event payload to kafka's topic.
 ### JAVA Version(1.8)

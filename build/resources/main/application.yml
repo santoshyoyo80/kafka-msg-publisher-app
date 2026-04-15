@@ -15,7 +15,7 @@ spring:
             non_contextual_creation: true
 
   kafka:
-    bootstrap-servers : localhost:8099
+    bootstrap-servers : localhost:9092
     topic-name : app-events
   application:
       name: publisher-app
